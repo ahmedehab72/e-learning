@@ -101,7 +101,7 @@ const Header = () => {
               {isDark ? (
                 <Sun className="w-5 h-5 text-yellow-400" />
               ) : (
-                <Moon className="w-5 h-5 text-gray-700 dark:text-gray-300" />
+                <Moon className="w-5 h-5 text-red-400 dark:text-gray-300" />
               )}
             </Button>
             <Button
@@ -110,9 +110,9 @@ const Header = () => {
               size="icon"
             >
               {isMobileMenuOpen ? (
-                <X className="w-6 h-6" />
+                <X className="w-6 h-6 text-yellow-400" />
               ) : (
-                <Menu className="w-6 h-6" />
+                <Menu className="w-6 h-6 text-red-400" />
               )}
             </Button>
           </div>
