@@ -62,19 +62,19 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      description: "support@learnhub.com",
-      action: "mailto:support@learnhub.com",
+      description: "elearning@gmail.com",
+      action: "mailto:elearning@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      description: "+1 (555) 123-4567",
+      description: "+20 155 123 4567",
       action: "tel:+15551234567",
     },
     {
       icon: MapPin,
       title: "Office",
-      description: "San Francisco, CA",
+      description: "Egypt, Cairo",
       action: null,
     },
   ]
@@ -138,11 +138,11 @@ export function Contact() {
                     <div>
                       <h3 className="font-semibold mb-1">{info.title}</h3>
                       {info.action ? (
-                        <a href={info.action} className="text-gray-700 dark:text-gray-300 hover:text-red-600 transition-colors">
+                        <a href={info.action} className="!text-gray-700 dark:!text-gray-300 hover:text-red-600 transition-colors">
                           {info.description}
                         </a>
                       ) : (
-                        <p className="text-gray-700 dark:text-gray-400">{info.description}</p>
+                        <p className="!text-gray-700 dark:!text-gray-300">{info.description}</p>
                       )}
                     </div>
                   </CardContent>
