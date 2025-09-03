@@ -1,12 +1,8 @@
 import { motion } from "framer-motion";
 import {
-  BookOpen,
   Brain,
   Award,
-  Smartphone,
-  Clock,
   Users,
-  Target,
   Zap,
 } from "lucide-react";
 
