@@ -10,6 +10,7 @@ import { Pricing } from "@/components/Pricing";
 const Index = () => {
   return (
     <div className="min-h-screen w-screen">
+        <FloatingButton />
         <Header />
         <Hero />
         <IconSlider /> 
@@ -17,7 +18,6 @@ const Index = () => {
         <Pricing />
         <Contact />
         <Footer />
-        <FloatingButton />
     </div>
   );
 };
