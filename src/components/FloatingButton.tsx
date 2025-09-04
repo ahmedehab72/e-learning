@@ -18,10 +18,10 @@ const FloatingButton = () => {
         stiffness: 300,
         damping: 10,
       }}
-      className="fixed bottom-6 right-10 z-50 !bg-transparent !border-none !focus:outline-none !focus:ring-0 cursor-pointer overflow-x-hidden"
+      className="fixed w-20 h-20 justify-center items-center  bottom-6 right-6 z-50 !bg-transparent !border-none !focus:outline-none !focus:ring-0 cursor-pointer"
     >
       <motion.div
-        animate={{ y: [0, -5, 0] }}
+        animate={{ y: [0, 5, 0] }}
         transition={{ repeat: Infinity, duration: 1.5 }}
         className="p-4 h-14 w-14 shadow-lg bg-gradient-to-r from-red-400 to-black text-white hover:shadow-2xl rounded-full "
       >

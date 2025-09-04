@@ -9,8 +9,7 @@ import { Pricing } from "@/components/Pricing";
 
 const Index = () => {
   return (
-    <div className="min-h-screen w-screen">
-        <FloatingButton />
+    <div className="min-h-screen w-screen overflow-x-hidden">
         <Header />
         <Hero />
         <IconSlider /> 
@@ -18,6 +17,7 @@ const Index = () => {
         <Pricing />
         <Contact />
         <Footer />
+        <FloatingButton />
     </div>
   );
 };
